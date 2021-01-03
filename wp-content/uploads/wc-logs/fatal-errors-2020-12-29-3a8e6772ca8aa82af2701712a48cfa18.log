@@ -1,0 +1,85 @@
+2020-12-29T16:49:01+00:00 CRITICAL Uncaught Error: Call to undefined function twentynineteen_hsl_hex() in C:\xampp\htdocs\nhom2\wp-content\themes\twentynineteen\functions.php:151
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\class-wp-hook.php(287): twentynineteen_setup('')
+#1 C:\xampp\htdocs\nhom2\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\nhom2\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\nhom2\wp-settings.php(535): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\nhom2\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nhom2\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\nhom2\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\twentynineteen\functions.php on line 151
+
+2020-12-29T16:49:22+00:00 CRITICAL Uncaught Error: Call to undefined function twentynineteen_hsl_hex() in C:\xampp\htdocs\nhom2\wp-content\themes\twentynineteen\functions.php:151
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\class-wp-hook.php(287): twentynineteen_setup('')
+#1 C:\xampp\htdocs\nhom2\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\nhom2\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\nhom2\wp-settings.php(535): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\nhom2\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nhom2\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\nhom2\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\twentynineteen\functions.php on line 151
+
+2020-12-29T16:49:24+00:00 CRITICAL Uncaught Error: Call to undefined function twentynineteen_hsl_hex() in C:\xampp\htdocs\nhom2\wp-content\themes\twentynineteen\functions.php:151
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\class-wp-hook.php(287): twentynineteen_setup('')
+#1 C:\xampp\htdocs\nhom2\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\nhom2\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\nhom2\wp-settings.php(535): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\nhom2\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nhom2\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\nhom2\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\twentynineteen\functions.php on line 151
+
+2020-12-29T16:49:25+00:00 CRITICAL Uncaught Error: Call to undefined function twentynineteen_hsl_hex() in C:\xampp\htdocs\nhom2\wp-content\themes\twentynineteen\functions.php:151
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\class-wp-hook.php(287): twentynineteen_setup('')
+#1 C:\xampp\htdocs\nhom2\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\nhom2\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\nhom2\wp-settings.php(535): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\nhom2\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nhom2\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\nhom2\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\twentynineteen\functions.php on line 151
+
+2020-12-29T16:49:28+00:00 CRITICAL Uncaught Error: Call to undefined function twentynineteen_hsl_hex() in C:\xampp\htdocs\nhom2\wp-content\themes\twentynineteen\functions.php:151
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\class-wp-hook.php(287): twentynineteen_setup('')
+#1 C:\xampp\htdocs\nhom2\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\nhom2\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\nhom2\wp-settings.php(535): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\nhom2\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nhom2\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\nhom2\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\twentynineteen\functions.php on line 151
+
+2020-12-29T17:05:09+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\nhom2/wp-content/themes/sliver/classes/class-twentynineteen-svg-icons.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\nhom2\wp-content\themes\sliver\functions.php on line 72
+
+2020-12-29T17:05:45+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\nhom2/wp-content/themes/sliver/inc/helper-functions.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\nhom2\wp-content\themes\sliver\functions.php on line 77
+
+2020-12-29T17:16:10+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php:80
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php on line 80
+
+2020-12-29T17:18:21+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php:80
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php on line 80
+

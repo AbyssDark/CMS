@@ -1,0 +1,96 @@
+2021-01-01T18:56:11+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php:80
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php on line 80
+
+2021-01-01T19:31:39+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php:80
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php on line 80
+
+2021-01-01T20:25:03+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php:128
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\nhom2\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\nhom2\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\page.php(1): get_header()
+#4 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php on line 128
+
+2021-01-01T20:25:04+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php:128
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\nhom2\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\nhom2\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\index.php(2): get_header()
+#4 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php on line 128
+
+2021-01-01T20:25:04+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php:128
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\nhom2\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\nhom2\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\index.php(2): get_header()
+#4 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php on line 128
+
+2021-01-01T20:25:04+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php:128
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\nhom2\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\nhom2\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\index.php(2): get_header()
+#4 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php on line 128
+
+2021-01-01T20:25:04+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php:128
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\nhom2\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\nhom2\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\index.php(2): get_header()
+#4 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php on line 128
+
+2021-01-01T20:25:05+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php:128
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\nhom2\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\nhom2\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\index.php(2): get_header()
+#4 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\mytheme\header.php on line 128
+
+2021-01-01T22:13:22+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php:80
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php on line 80
+

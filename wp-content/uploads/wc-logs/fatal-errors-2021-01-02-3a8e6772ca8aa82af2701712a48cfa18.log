@@ -1,0 +1,8 @@
+2021-01-02T04:41:00+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php:80
+Stack trace:
+#0 C:\xampp\htdocs\nhom2\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\nhom2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nhom2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\nhom2\wp-content\themes\shoptheme\index.php on line 80
+
