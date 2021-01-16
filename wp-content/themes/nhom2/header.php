@@ -69,15 +69,42 @@
                     </div>
                     <div class="col-lg-9 pl-0 ml-sm-15 ml-xs-15">
                         <form action="#" class="hm-searchbox">
-                            <input type="text" onblur="if(this.value=='')this.value='Enter your search key ...'"
-                                onfocus="if(this.value=='Enter your search key ...')this.value=''"
-                                value="Enter your search key ...">
-                            <button class="li-btn" type="submit"><i class="fa fa-search"></i></button>
+                            <form action="<?php bloginfo('url'); ?>/" method="GET" role="form">
+                                <div class="form-group">
+                                    <?php $args = array(
+                                    'show_option_all'    => '',
+                                    'show_option_none' 	 => __( '' ),
+                                    'option_none_value'  => '',
+                                    'orderby'            => 'ID',
+                                    'order'              => 'ASC',
+                                    'show_count'         => 0,
+                                    'hide_empty'         => 0,
+                                    'child_of'           => 0,
+                                    'include'            => '',
+                                    'echo'               => 1,
+                                    'selected'           => 0,
+                                    'hierarchical'       => 1,
+                                    'name'               => 'product_cat',
+                                    'id'                 => 'product_cat',
+                                    'class'              => 'form-search',
+                                    'depth'              => 0,
+                                    'tab_index'          => 0,
+                                    'taxonomy'           => 'product_cat',
+                                    'hide_if_empty'      => false,
+                                    'value_field'	     => 'slug',
+                                ); ?>
+                                    <?php wp_dropdown_categories( $args ); ?>
+                                </div>
+
+                                <input type="text" name="s" id="s" class="form-control" placeholder="Từ khóa">
+
+                                <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+                            </form>
                         </form>
                         <div class="header-middle-right">
                             <div class="hm-menu">
                                 <div class="hm-wishlist">
-                                    <a href="/nhom2/checkout/">
+                                    <a href="/nhom2/cart/">
                                         <span class="cart-item-count wishlist-item-count">CART</span>
                                         <i class="fa fa-heart-o"></i>
                                     </a>
@@ -112,48 +139,8 @@
             </div>
         </div>
     </header>
-    <div class="slider-with-banner">
-        <div class="container">
-            <div class="slider-area">
-                <div class="slider-active owl-carousel">
-                    <div class="single-slide align-center-left  animation-style-01 bg-1">
-                        <div class="slider-progress"></div>
-                        <div class="slider-content">
-                            <h5>Sale Offer <span>-20% Off</span> This Week</h5>
-                            <h2>Chamcham Galaxy S9 | S9+</h2>
-                            <h3>Starting at <span>$1209.00</span></h3>
-                            <div class="default-btn slide-btn">
-                                <a class="links" href="shop-left-sidebar.html">Shopping Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-slide align-center-left animation-style-02 bg-2">
-                        <div class="slider-progress"></div>
-                        <div class="slider-content">
-                            <h5>Sale Offer <span>Black Friday</span> This Week</h5>
-                            <h2>Work Desk Surface Studio 2018</h2>
-                            <h3>Starting at <span>$824.00</span></h3>
-                            <div class="default-btn slide-btn">
-                                <a class="links" href="shop-left-sidebar.html">Shopping Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-slide align-center-left animation-style-01 bg-3">
-                        <div class="slider-progress"></div>
-                        <div class="slider-content">
-                            <h5>Sale Offer <span>-10% Off</span> This Week</h5>
-                            <h2>Phantom 4 Pro+ Obsidian</h2>
-                            <h3>Starting at <span>$1849.00</span></h3>
-                            <div class="default-btn slide-btn">
-                                <a class="links" href="shop-left-sidebar.html">Shopping Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
+   <?php get_template_part('template/slide'); ?>
+    <br> <br>
     <style>
     #header-main {
         padding: 10px 0;
@@ -171,5 +158,19 @@
     .nav li .nav-link:hover {
         color: #ffffff !important;
         background-color: rgba(254, 215, 0, .8);
+    }
+
+    .form-search {
+        display: block;
+        width: 150px;
+        height: 44px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
     }
     </style>

@@ -27,13 +27,13 @@
                         </form>
                     </div>
                     <div class="error-button">
-                        <a href="index.html">Back to home page</a>
+                        <a href="/nhom2/">Back to home page</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+<br>
 <?php get_footer() ?>
 

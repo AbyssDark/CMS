@@ -1,3 +1,4 @@
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar') ) : ?><?php endif; ?>
 <?php wp_footer(); ?>
 <div class="footer">
     <div class="footer-static-top">
